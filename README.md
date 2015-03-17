@@ -16,7 +16,12 @@ bower install angular-less
 
 ## Usage
 
-Just add `<link>`s, just like you are supposed to:
+1- List it as a dependancy for your module:
+```javascript
+var app = angular.module('myApp', ['ngLess']);
+```
+
+2- Add `<link>`s, just like you are supposed to:
 ```html
 <link rel="stylesheet/less" href="style.less">
 ```
